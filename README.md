@@ -17,9 +17,9 @@ Mysql
 
 ## Tables used
 
-[^1]:Customer (customer_id int , name varchar , dob date , address varchar , phone_no int , email varchar)
-[^2]:accounts (account_no int , customer_id int , activation_date date , balance int , password varchar)
-[^3]:transaction (account_no int , amount int , type varchar , date date)
-[^4]:trasnfer (sender int , receiver int , amount int , date date)
+Customer (customer_id int , name varchar , dob date , address varchar , phone_no int , email varchar)<br />
+accounts (account_no int , customer_id int , activation_date date , balance int , password varchar)<br />
+transaction (account_no int , amount int , type varchar , date date)<br />
+trasnfer (sender int , receiver int , amount int , date date)<br />
 
 
